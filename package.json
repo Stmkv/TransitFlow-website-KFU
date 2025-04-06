@@ -1,0 +1,16 @@
+{
+  "name": "transitflow-website-kfu",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url ./",
+    "clean": "rm -rf dist .parcel-cache"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.4",
+    "typescript": "^5.8.3",
+    "sass": "^1.71.0",
+    "@parcel/transformer-typescript-tsc": "^2.14.4"
+  }
+}
